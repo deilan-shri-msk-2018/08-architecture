@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/deilan-shri-msk-2018/08-architecture/issues"
   },
-  "homepage": "https://github.com/deilan-shri-msk-2018/08-architecture#readme"
+  "homepage": "https://github.com/deilan-shri-msk-2018/08-architecture#readme",
+  "devDependencies": {
+    "typescript": "2.8.1"
+  }
 }
