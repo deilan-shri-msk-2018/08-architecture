@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/deilan-shri-msk-2018/08-architecture#readme",
   "devDependencies": {
-    "typescript": "2.8.1"
+    "typescript": "2.8.1",
+    "webpack": "4.6.0"
   }
 }
