@@ -8,16 +8,17 @@
     </head>
     <body>
         <h1>Архитектура приложения</h1>
+        <button type="button" class="stop-log">Остановить логгирование на экран</button>
         <div class="view-stub">
-            <div class="view-stub__input-block">
+            <form class="view-stub__input-block">
                 <input class="view-stub__input"/>
-                <button class="view-stub__apply">Отправить на сервер</button>
-            </div>
+                <button type="submit" class="view-stub__apply">Отправить на сервер</button>
+            </form>
             <p class="view-stub__label"> Здесь появится ответ сервера</p>
         </div>
-        <div class="log">
+        <pre class="log">
             Сюда можно выносить лог
-        </div>
+        </pre>
         <script src="app.js"></script>
     </body>
 </html>
