@@ -1,5 +1,4 @@
 module.exports = {
-    mode: 'development',
     entry: './src/app.ts',
     output: {
         filename: 'app.js',
