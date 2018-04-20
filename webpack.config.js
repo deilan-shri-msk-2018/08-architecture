@@ -1,8 +1,10 @@
+const path = require('path');
+
 module.exports = {
   entry: './src/app.ts',
   output: {
     filename: 'app.js',
-    path: __dirname + '/dist/',
+    path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
     extensions: ['.ts', '.js'],
@@ -11,6 +13,6 @@ module.exports = {
     rules: [{
       test: /\.ts$/,
       use: 'awesome-typescript-loader',
-    }, ],
+    }],
   },
 };
