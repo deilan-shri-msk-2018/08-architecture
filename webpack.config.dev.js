@@ -1,5 +1,10 @@
 const config = require('./webpack.config');
 
-config.mode = 'development';
-
-module.exports = config;
+module.exports = {
+  ...config,
+  mode: 'development',
+  devServer: {
+    port: 3000,
+    open: true
+  }
+};

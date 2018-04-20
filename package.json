@@ -2,7 +2,7 @@
   "name": "08-architecture",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.dev.js --port 3000 --open",
+    "start": "webpack-dev-server --config ./webpack.config.dev.js",
     "build:dev": "webpack --config ./webpack.config.dev.js",
     "build:prod": "webpack --config ./webpack.config.prod.js",
     "lint": "tslint 'src/**/*.ts'"
