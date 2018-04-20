@@ -1,6 +1,6 @@
-import { Store, itemReducer } from './store';
+import { IReducerMap, itemReducer, Store } from "./store";
 
-import { initHandlers } from './handlers';
+import { initHandlers } from "./handlers";
 
 const reducers = {
   items: itemReducer,
