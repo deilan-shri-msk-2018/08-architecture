@@ -7,7 +7,7 @@ export interface ItemsState {
 }
 
 export interface IReducerMap {
-  [key: string]: (state: any, action: any) => any;
+  [key: string]: <T>(state: T, action: IAction) => T;
 }
 
 export const initialState: ItemsState = {
